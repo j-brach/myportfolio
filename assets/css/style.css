@@ -70,10 +70,33 @@ header nav ul li a {
 
 .hero-cta {
     width: 35%;
-    align-items: flex-end;
+    text-align: right;
     margin: 3.5%;
     color: var(--tertiary-color);
     font-size: 18px;
     line-height: 1.2;
 }
 /* HERO STYLES END */
+
+/* SECTION TITLE STYLES START */
+.section-title {
+    font-size: 45px;
+    border-right: 3px solid;
+    color: var(--primary-color);
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 0 auto 35px 35px;
+    width: 50%;
+}
+/* SECTION TITLE STYLES END */
+
+/* ABOUT ME STYLES START */
+.intro p {
+    line-height: 1.7;
+    color: var(--primary-color);
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: right;
+    flex-wrap: wrap;
+}
+/* ABOUT ME STYLES END */
